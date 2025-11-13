@@ -36,7 +36,7 @@ const Location = () => {
                     <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                      <a href="tel:+12125551234" className="text-muted-foreground hover:text-primary transition-colors">
+                      <a href="tel:+16469228324" className="text-muted-foreground hover:text-primary transition-colors">
                         (646) 922-8324
                       </a>
                     </div>
@@ -63,7 +63,7 @@ const Location = () => {
               
               <div className="mt-8 text-center">
                 <Button variant="default" size="lg" asChild>
-                  <a href="tel:+12125551234">
+                  <a href="tel:+16469228324">
                     <Phone className="mr-2 h-5 w-5" />
                     Call to Book
                   </a>

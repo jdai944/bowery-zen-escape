@@ -8,8 +8,8 @@ const Footer = () => {
             86 Bowery, New York NY 10013
           </p>
           <p className="text-background/80">
-            <a href="tel:+12125551234" className="hover:text-background transition-colors">
-              (212) 555-1234
+            <a href="tel:+16469228324" className="hover:text-background transition-colors">
+              (646) 922-8324
             </a>
           </p>
           <p className="text-sm text-background/60 pt-4">

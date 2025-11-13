@@ -23,7 +23,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Button variant="hero" size="lg" asChild>
-            <a href="tel:+12125551234">
+            <a href="tel:+16469228324">
               <Phone className="mr-2 h-5 w-5" />
               Book Your Appointment
             </a>

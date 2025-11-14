@@ -43,7 +43,7 @@ const Hero = () => {
           
           <div className="flex gap-4">
             <a 
-              href="#" 
+              href="https://www.yelp.com/biz/bowery-day-spa-new-york-2?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm"

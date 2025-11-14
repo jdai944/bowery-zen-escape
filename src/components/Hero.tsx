@@ -25,13 +25,13 @@ const Hero = () => {
           <Button variant="hero" size="lg" asChild>
             <a href="tel:+16469228324">
               <Phone className="mr-2 h-5 w-5" />
-              Book Your Appointment
+              Call to Book
             </a>
           </Button>
-          <Button variant="secondary" size="lg" asChild>
-            <a href="#location">
-              <MapPin className="mr-2 h-5 w-5" />
-              Visit Us
+          <Button variant="hero" size="lg" asChild>
+            <a href="https://book.squareup.com/appointments/813p4r368kg8c4/location/LF7KHBJJQJA4V/services?rwg_token=ACgRB3feSVO4x-bINHB9R-Xc5aquUDqRn0sO-E3ut8NydAStK5SuInxyOyv_UYgUdmo7-_8OwWMgk7CRTJWlw5CpiWmDfy6QgHDalT3vYnQUZfe8TjYf_6w%3D" target="_blank" rel="noopener noreferrer">
+              <Phone className="mr-2 h-5 w-5" />
+              Book Online
             </a>
           </Button>
         </div>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-spa.jpg";
-import { Phone, MapPin, Instagram, Star } from "lucide-react";
+import { Phone, MapPin, Instagram, Star, Calendar } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
           </Button>
           <Button variant="hero" size="lg" asChild>
             <a href="https://book.squareup.com/appointments/813p4r368kg8c4/location/LF7KHBJJQJA4V/services?rwg_token=ACgRB3feSVO4x-bINHB9R-Xc5aquUDqRn0sO-E3ut8NydAStK5SuInxyOyv_UYgUdmo7-_8OwWMgk7CRTJWlw5CpiWmDfy6QgHDalT3vYnQUZfe8TjYf_6w%3D" target="_blank" rel="noopener noreferrer">
-              <Phone className="mr-2 h-5 w-5" />
+              <Calendar className="mr-2 h-5 w-5" />
               Book Online
             </a>
           </Button>

@@ -1,3 +1,5 @@
+import { Instagram, Star } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12">
@@ -12,6 +14,28 @@ const Footer = () => {
               (646) 922-8324
             </a>
           </p>
+          
+          <div className="flex justify-center gap-4 pt-4">
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-background/10 hover:bg-background/20 p-3 rounded-full transition-colors"
+              aria-label="Visit our Yelp page"
+            >
+              <Star className="h-6 w-6" />
+            </a>
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-background/10 hover:bg-background/20 p-3 rounded-full transition-colors"
+              aria-label="Follow us on Instagram"
+            >
+              <Instagram className="h-6 w-6" />
+            </a>
+          </div>
+          
           <p className="text-sm text-background/60 pt-4">
             © {new Date().getFullYear()} Bowery Day Spa. All rights reserved.
           </p>

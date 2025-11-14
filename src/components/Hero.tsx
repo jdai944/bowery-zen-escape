@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-spa.jpg";
-import { Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, Instagram, Star } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -35,11 +35,32 @@ const Hero = () => {
             </a>
           </Button>
         </div>
-        <div className="flex flex-col items-center gap-2 text-sm md:text-base">
+        <div className="flex flex-col items-center gap-4 text-sm md:text-base">
           <p className="flex items-center gap-2">
             <MapPin className="h-4 w-4" />
             86 Bowery, New York NY 10013
           </p>
+          
+          <div className="flex gap-4">
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm"
+              aria-label="Visit our Yelp page"
+            >
+              <Star className="h-6 w-6" />
+            </a>
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm"
+              aria-label="Follow us on Instagram"
+            >
+              <Instagram className="h-6 w-6" />
+            </a>
+          </div>
         </div>
       </div>
       

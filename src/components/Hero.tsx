@@ -52,7 +52,7 @@ const Hero = () => {
               <Star className="h-6 w-6" />
             </a>
             <a 
-              href="#" 
+              href="https://www.instagram.com/bowerydayspa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm"

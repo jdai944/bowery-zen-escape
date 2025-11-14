@@ -54,11 +54,17 @@ const Location = () => {
                   </div>
                 </div>
                 
-                <div className="relative h-[300px] md:h-auto rounded-lg overflow-hidden bg-muted">
+                <a 
+                  href="https://www.google.com/maps/place/Bowery+Day+Spa/@40.7169055,-73.9956074,16.5z/data=!4m6!3m5!1s0x89c25b30005b84a9:0xce67b39c2b4d6767!8m2!3d40.7171732!4d-73.9957944!16s%2Fg%2F11l6bq45lv?entry=ttu&g_ep=EgoyMDI1MTExMS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative h-[300px] md:h-auto rounded-lg overflow-hidden bg-muted block cursor-pointer hover:opacity-90 transition-opacity"
+                >
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2991745984567!2d-73.9979284!3d40.7156347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598bb32e00a7%3A0x6e50e43c14b47d21!2s86%20Bowery%2C%20New%20York%2C%20NY%2010013!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="100%" style={{
-                  border: 0
+                  border: 0,
+                  pointerEvents: 'none'
                 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Bowery Day Spa Location" />
-                </div>
+                </a>
               </div>
               
               <div className="mt-8 text-center">

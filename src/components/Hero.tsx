@@ -50,7 +50,7 @@ const Hero = () => {
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm flex items-center justify-center"
               aria-label="Visit our Yelp page"
             >
-              <img src={yelpLogo} alt="Yelp" className="h-5 w-auto brightness-0 invert opacity-90" />
+              <img src={yelpLogo} alt="Yelp" className="h-6 w-6 object-contain brightness-0 invert" />
             </a>
             <a 
               href="https://www.instagram.com/bowerydayspa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 

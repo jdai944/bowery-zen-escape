@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-spa.jpg";
-import yelpLogo from "@/assets/yelp-logo-white.png";
+import yelpLogo from "@/assets/yelp-logo.png";
 import { Phone, MapPin, Instagram, Calendar } from "lucide-react";
 
 const Hero = () => {

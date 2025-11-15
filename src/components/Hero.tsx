@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-spa.jpg";
-import { Phone, MapPin, Instagram, Star, Calendar } from "lucide-react";
+import yelpLogo from "@/assets/yelp-logo.svg";
+import { Phone, MapPin, Instagram, Calendar } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -49,7 +50,7 @@ const Hero = () => {
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm"
               aria-label="Visit our Yelp page"
             >
-              <Star className="h-6 w-6" />
+              <img src={yelpLogo} alt="Yelp" className="h-6 w-6" />
             </a>
             <a 
               href="https://www.instagram.com/bowerydayspa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 

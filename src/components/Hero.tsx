@@ -47,10 +47,10 @@ const Hero = () => {
               href="https://www.yelp.com/biz/bowery-day-spa-new-york-2?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm"
+              className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm flex items-center justify-center"
               aria-label="Visit our Yelp page"
             >
-              <img src={yelpLogo} alt="Yelp" className="h-6 w-auto brightness-0 invert" />
+              <img src={yelpLogo} alt="Yelp" className="h-5 w-auto brightness-0 invert opacity-90" />
             </a>
             <a 
               href="https://www.instagram.com/bowerydayspa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 

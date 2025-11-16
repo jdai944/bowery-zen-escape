@@ -59,8 +59,10 @@ const Reviews = () => {
         </p>
         
         <div className="flex items-center justify-center gap-8 mb-12">
-          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm">
-            <div className="text-2xl font-bold">Google</div>
+          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm min-w-[200px]">
+            <div className="text-2xl font-bold bg-gradient-to-r from-[#4285F4] via-[#EA4335] via-[#FBBC05] to-[#34A853] bg-clip-text text-transparent">
+              Google
+            </div>
             <div className="flex flex-col items-center">
               <div className="flex items-center gap-1">
                 <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
@@ -70,8 +72,8 @@ const Reviews = () => {
             </div>
           </div>
           
-          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm">
-            <img src={yelpLogo} alt="Yelp" className="h-6 w-6 object-contain" />
+          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm min-w-[200px]">
+            <img src={yelpLogo} alt="Yelp" className="h-8 w-8 object-contain" />
             <div className="flex flex-col items-center">
               <div className="flex items-center gap-1">
                 <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />

@@ -1,5 +1,6 @@
 import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import yelpLogo from "@/assets/yelp-logo.png";
 
 const reviews = [
   {
@@ -53,9 +54,33 @@ const Reviews = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
           What Our Clients Say
         </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
           Don't just take our word for it - hear from our satisfied clients
         </p>
+        
+        <div className="flex items-center justify-center gap-8 mb-12">
+          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm">
+            <div className="text-2xl font-bold">Google</div>
+            <div className="flex flex-col items-center">
+              <div className="flex items-center gap-1">
+                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                <span className="text-xl font-bold">4.8</span>
+              </div>
+              <span className="text-xs text-muted-foreground">500+ reviews</span>
+            </div>
+          </div>
+          
+          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm">
+            <img src={yelpLogo} alt="Yelp" className="h-6 w-6 object-contain" />
+            <div className="flex flex-col items-center">
+              <div className="flex items-center gap-1">
+                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                <span className="text-xl font-bold">4.7</span>
+              </div>
+              <span className="text-xs text-muted-foreground">300+ reviews</span>
+            </div>
+          </div>
+        </div>
         
         <div className="relative overflow-hidden">
           <div className="flex animate-scroll gap-6">

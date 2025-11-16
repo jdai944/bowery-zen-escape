@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-spa.jpg";
-import yelpLogo from "@/assets/yelp-logo.png";
+import tiktokLogo from "@/assets/tiktok-logo.svg";
 import { Phone, MapPin, Instagram, Calendar } from "lucide-react";
 
 const Hero = () => {
@@ -44,13 +44,13 @@ const Hero = () => {
           
           <div className="flex gap-4">
             <a 
-              href="https://www.yelp.com/biz/bowery-day-spa-new-york-2?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" 
+              href="https://www.tiktok.com/@86bowery" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm flex items-center justify-center"
-              aria-label="Visit our Yelp page"
+              aria-label="Follow us on TikTok"
             >
-              <img src={yelpLogo} alt="Yelp" className="h-6 w-6 object-contain brightness-0 invert" />
+              <img src={tiktokLogo} alt="TikTok" className="h-6 w-6 object-contain brightness-0 invert" />
             </a>
             <a 
               href="https://www.instagram.com/bowerydayspa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 

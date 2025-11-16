@@ -73,7 +73,7 @@ const Reviews = () => {
           </div>
           
           <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm min-w-[200px]">
-            <img src={yelpLogo} alt="Yelp" className="h-8 w-8 object-contain" />
+            <img src={yelpLogo} alt="Yelp" className="h-12 w-12 object-contain" />
             <div className="flex flex-col items-center">
               <div className="flex items-center gap-1">
                 <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />

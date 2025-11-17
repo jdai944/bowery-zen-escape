@@ -59,7 +59,7 @@ const Reviews = () => {
         </p>
         
         <div className="flex items-center justify-center gap-8 mb-12">
-          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-6 py-4 rounded-lg border shadow-sm min-w-[200px]">
+          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-4 py-3 rounded-lg border shadow-sm min-w-[200px]">
             <div className="text-2xl font-bold flex">
               <span style={{ color: '#4285F4' }}>G</span>
               <span style={{ color: '#EA4335' }}>o</span>

@@ -59,7 +59,7 @@ const Reviews = () => {
         </p>
         
         <div className="flex items-center justify-center gap-8 mb-12">
-          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-4 py-3 rounded-lg border shadow-sm min-w-[200px]">
+          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-4 py-3 rounded-lg border shadow-sm w-[240px]">
             <div className="text-2xl font-bold flex">
               <span style={{ color: '#4285F4' }}>G</span>
               <span style={{ color: '#EA4335' }}>o</span>
@@ -70,24 +70,7 @@ const Reviews = () => {
             </div>
             <div className="flex flex-col items-center">
               <div className="flex items-center gap-1">
-                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                <span className="text-xl font-bold">4.9</span>
-              </div>
-              <span className="text-xs text-muted-foreground">668 reviews</span>
-            </div>
-          </div>
-          
-          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-4 py-3 rounded-lg border shadow-sm min-w-[200px]">
-            <img src={yelpLogo} alt="Yelp" className="h-16 w-auto object-contain" />
-            <div className="flex flex-col items-center">
-              <div className="flex items-center gap-1">
-                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                <span className="text-xl font-bold">4.9</span>
-              </div>
-              <span className="text-xs text-muted-foreground">44 reviews</span>
-            </div>
-          </div>
-        </div>
+                <Star className="h
         
         <div className="relative overflow-hidden">
           <div className="flex animate-scroll gap-6">

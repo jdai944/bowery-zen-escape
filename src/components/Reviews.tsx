@@ -71,9 +71,9 @@ const Reviews = () => {
             <div className="flex flex-col items-center">
               <div className="flex items-center gap-1">
                 <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                <span className="text-xl font-bold">4.8</span>
+                <span className="text-xl font-bold">4.9</span>
               </div>
-              <span className="text-xs text-muted-foreground">500+ reviews</span>
+              <span className="text-xs text-muted-foreground">668 reviews</span>
             </div>
           </div>
           
@@ -82,9 +82,9 @@ const Reviews = () => {
             <div className="flex flex-col items-center">
               <div className="flex items-center gap-1">
                 <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                <span className="text-xl font-bold">4.7</span>
+                <span className="text-xl font-bold">4.9</span>
               </div>
-              <span className="text-xs text-muted-foreground">300+ reviews</span>
+              <span className="text-xs text-muted-foreground">44 reviews</span>
             </div>
           </div>
         </div>

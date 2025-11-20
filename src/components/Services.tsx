@@ -3,6 +3,8 @@ import footMassageImage from "@/assets/foot-massage.jpg";
 import bodyMassageImage from "@/assets/body-massage.jpg";
 
 const Services = () => {
+  const BOOKING_URL = "https://book.squareup.com/appointments/813p4r368kg8c4/location/LF7KHBJJQJA4V/services?rwg_token=ACgRB3feSVO4x-bINHB9R-Xc5aquUDqRn0sO-E3ut8NydAStK5SuInxyOyv_UYgUdmo7-_8OwWMgk7CRTJWlw5CpiWmDfy6QgHDalT3vYnQUZfe8TjYf_6w%3D";
+
   const services = [
     {
       title: "Foot Massage",
@@ -32,32 +34,39 @@ const Services = () => {
         
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {services.map((service, index) => (
-            <Card 
-              key={index} 
-              className="overflow-hidden hover:shadow-lg transition-shadow duration-300"
-              style={{
-                background: 'var(--gradient-card)',
-              }}
+            <a 
+              key={index}
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
             >
-              <div className="aspect-video overflow-hidden">
-                <img 
-                  src={service.image} 
-                  alt={service.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle className="text-2xl">{service.title}</CardTitle>
-                <CardDescription className="text-base text-muted-foreground">
-                  {service.duration}
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground leading-relaxed">
-                  {service.description}
-                </p>
-              </CardContent>
-            </Card>
+              <Card 
+                className="overflow-hidden hover:shadow-lg transition-all duration-300 cursor-pointer h-full hover:scale-[1.02]"
+                style={{
+                  background: 'var(--gradient-card)',
+                }}
+              >
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardHeader>
+                  <CardTitle className="text-2xl">{service.title}</CardTitle>
+                  <CardDescription className="text-base text-muted-foreground">
+                    {service.duration}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-foreground leading-relaxed">
+                    {service.description}
+                  </p>
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
       </div>

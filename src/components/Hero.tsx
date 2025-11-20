@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-spa.jpg";
-import tiktokLogo from "@/assets/tiktok-logo.svg";
+import tiktokLogo from "@/assets/tiktok-logo.png";
 import { Phone, MapPin, Instagram, Calendar } from "lucide-react";
 
 const Hero = () => {
@@ -50,7 +50,7 @@ const Hero = () => {
               className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors backdrop-blur-sm flex items-center justify-center"
               aria-label="Follow us on TikTok"
             >
-              <img src={tiktokLogo} alt="TikTok" className="h-6 w-6 object-contain brightness-0 invert" />
+              <img src={tiktokLogo} alt="TikTok" className="h-6 w-6 object-contain" />
             </a>
             <a 
               href="https://www.instagram.com/bowerydayspa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 

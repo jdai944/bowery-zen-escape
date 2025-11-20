@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-spa.jpg";
+import logo from "@/assets/logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.svg";
 import { Phone, MapPin, Instagram, Calendar } from "lucide-react";
 
@@ -16,6 +17,11 @@ const Hero = () => {
       />
       
       <div className="relative z-10 container mx-auto px-4 py-20 text-center text-white">
+        <img 
+          src={logo} 
+          alt="Bowery Day Spa Logo" 
+          className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 rounded-full shadow-lg"
+        />
         <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
           Bowery Day Spa
         </h1>

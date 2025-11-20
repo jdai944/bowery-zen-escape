@@ -70,8 +70,25 @@ const Reviews = () => {
             </div>
             <div className="flex flex-col items-center">
               <div className="flex items-center gap-1">
-                <Star className="h
-        
+                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                <span className="text-lg font-bold">4.9</span>
+              </div>
+              <span className="text-xs text-muted-foreground">668 reviews</span>
+            </div>
+          </div>
+          
+          <div className="flex items-center gap-3 bg-background/80 backdrop-blur-sm px-4 py-3 rounded-lg border shadow-sm w-[240px]">
+            <img src={yelpLogo} alt="Yelp" className="h-8 w-auto" />
+            <div className="flex flex-col items-center">
+              <div className="flex items-center gap-1">
+                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                <span className="text-lg font-bold">4.9</span>
+              </div>
+              <span className="text-xs text-muted-foreground">44 reviews</span>
+            </div>
+          </div>
+        </div>
+
         <div className="relative overflow-hidden">
           <div className="flex animate-scroll gap-6">
             {[...reviews, ...reviews].map((review, index) => (
